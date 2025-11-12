@@ -2,6 +2,7 @@
 #define EXPENSE_H
 
 #include <string>
+#include <array>
 
 using namespace std;
 
@@ -12,6 +13,7 @@ enum class ExpenseType {
 	FOOD,
 	TRAVELING,
 	RESTAURANTS,
+	ELECTRONICS,
 	OTHER
 };
 
